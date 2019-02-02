@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <form id="addBook" method="post">
+        <label>Title:
+            <input type="text" name="title" id="title">
+        </label>
+        <label>Author:
+            <input type="text" name="author" id="author">
+        </label>
+        <label>ISBN:
+            <input type="text" name="isbn" id="isbn">
+        </label>
+        <label>Publisher:
+            <input type="text" name="publisher" id="publisher">
+        </label>
+        <label>
+            <select name="genre" id="genre">
+                <option Value="1">Romans</option>
+                <option Value="2">Obyczajowa</option>
+                <option Value="3">Sci-fi i fantasy</option>
+                <option Value="4">Literatura faktu</option>
+                <option Value="5">Popularnonaukowa</option>
+                <option Value="6">Poradnik</option>
+                <option Value="7">Kryminał, sensacja</option>
+            </select>
+        </label>
+        <input type="submit" value="Submit" id="submitBtn">
+    </form>
+
+    <ul id="books">
+
+    </ul>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
